@@ -4,6 +4,10 @@ Dungeon crawler game for Raspberry Pi Sense HAT
 <br>
 
 ## Running the Game:
+Walls is programmed for the [Raspberry Pi Sense HAT](https://www.raspberrypi.org/products/sense-hat/) (also see the [Sense HAT Tutorial](https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat)). For the game to run, be sure to have the latest version of Raspbian, Python 3, and the Sense HAT package. To install the sense hat package, run the command:
+```*
+sudo apt-get install sense-hat
+```
 Run the script "Walls.py" to start the game. You should see the text "Walls by Bryan McClain" scroll across the sense hat screen. Press the center of the control pad to start the game.
 
 <br>
